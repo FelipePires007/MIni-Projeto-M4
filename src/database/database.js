@@ -1,4 +1,4 @@
-import {Book} from "../models/livros.model.js";
+import {Book} from "../models/models.js";
 
 export const books = [
     new Book( 1, "Pequeno Manual Antirracista", "Djamila Ribeiro"),
