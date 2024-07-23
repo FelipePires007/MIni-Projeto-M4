@@ -1,9 +1,10 @@
-import { Router } from "express";
-import { cratePollution, getPollutions } from "../controllers/poluicao-controllers.js";
+// poluicao-router.js
+import express from "express";
+import { createPollution, getPollutions } from "../controllers/poluicao-controllers.js";
 
-const pollutionRouter = Router();
+const router = express.Router();
 
-pollutionRouter.get("/all", getPollutions);
-pollutionRouter.post("/", cratePollution);
+router.get('/', getPollutions);
+router.post('/', createPollution);
 
-export { pollutionRouter };
+export { router as pollutionRouter };

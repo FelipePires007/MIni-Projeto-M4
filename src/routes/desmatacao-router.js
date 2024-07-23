@@ -1,9 +1,9 @@
-import { Router } from "express";
-import { createDeforestation, getDeforestations } from "../controllers/desmatacao-controllers";
+// desmatacao-router.js
+import express from "express";
+import { getDeforestations } from "../controllers/desmatacao-controllers.js";
 
-const deforestationRouter = Router ();
+const router = express.Router();
 
-deforestationRouter.get("/all", getDeforestations);
-deforestationRouter.post("/", createDeforestation);
+router.get('/', getDeforestations);
 
-export { deforestationRouter };
+export { router as deforestationRouter };

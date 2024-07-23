@@ -1,7 +1,7 @@
 export class Pollution {
-    constructor(id, type, descrition){
+    constructor(id, type, description){
         this.id = id;
         this.type = type;
-        this.descrition = descrition;
+        this.description = description;
     }
 }
