@@ -3,12 +3,10 @@ import { Book } from "../models/models.js";
 
 export const getBooks = (req, res) => {
     res.status(200).send(books);
-    
 };
 
-export const createBook =(req, res) => {
-
-const newBook = req.body;
+export const createBook = (req, res) => {
+    const newBook = req.body;
 
     const dadoFormatado = new Book(
         newBook.id,
@@ -16,7 +14,7 @@ const newBook = req.body;
         newBook.author
     );
 
-books.push(dadosFormado)
+    books.push(dadoFormatado);
 
-res.status(201).send(`O Livro ${dadoFormatado.name} foi criado com sucesso!`)
+    res.status(201).send(`O Livro ${dadoFormatado.title} foi criado com sucesso!`);
 };

@@ -1,11 +1,9 @@
-import {Router} from "express"
-
-import {createBook, getBooks} from "../controllers/controllers.js";
+import { Router } from "express";
+import { createBook, getBooks } from "../controllers/controllers.js";
 
 const bookRouter = Router();
 
-bookRouter.get("/book/all", getBooks);
+bookRouter.get("/all", getBooks);
+bookRouter.post("/", createBook);
 
-bookRouter.post("/book", createBook);
-
-export {bookRouter};
+export { bookRouter };
