@@ -31,22 +31,3 @@ GET /pollution: Retorna informações sobre a poluição.
 
 GET /books: Retorna uma lista de livros sobre antirracismo.
 
-💻 Instalação
-
-Clone o repositório:
-Copiar código
-git clone https://github.com/seu-usuario/mini-projeto-m4.git
-
-Navegue até o diretório do projeto:
-Copiar código
-cd mini-projeto-m4
-
-Instale as dependências:
-npm install
-
-📚 Uso
-Inicie o servidor:
-npm start
-
-Acesse a API através do endereço:
-http://localhost:3001
