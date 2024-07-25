@@ -1,5 +1,6 @@
 🌳 Mini Projeto M4 - API de Desmatamento, Poluição e Livros Antirracismo 📚
-Descrição
+
+Descrição:
 Este é um mini projeto de desenvolvimento web que utiliza Node.js e Express para criar uma API RESTful. A API gerencia informações sobre desmatamento, poluição e inclui uma seção especial dedicada a livros sobre antirracismo. O objetivo é aumentar a conscientização sobre questões ambientais e sociais críticas, demonstrando como a tecnologia pode ser utilizada para promover mudanças positivas. 🌍
 
 🛠️ Tecnologias Utilizadas:
@@ -29,3 +30,23 @@ POST /pollution: Adiciona novas informações sobre a poluição.
 GET /pollution: Retorna informações sobre a poluição.
 
 GET /books: Retorna uma lista de livros sobre antirracismo.
+
+💻 Instalação
+
+Clone o repositório:
+Copiar código
+git clone https://github.com/seu-usuario/mini-projeto-m4.git
+
+Navegue até o diretório do projeto:
+Copiar código
+cd mini-projeto-m4
+
+Instale as dependências:
+npm install
+
+📚 Uso
+Inicie o servidor:
+npm start
+
+Acesse a API através do endereço:
+http://localhost:3001
